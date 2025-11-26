@@ -1,0 +1,179 @@
+$azulOscuro: #0b2456;
+$azulMedio: #0b2456;
+$celeste: #1849a9;
+$grisFondo: #F5F7FA;
+$blanco: #fff;
+$grisTexto: #444;
+
+.contenedor-principal-Trabajos {
+    padding: 50px 50px 100px;
+    width: 100%;
+    margin: 0 auto;
+    background: $grisFondo;
+    text-align: center;
+
+    @media (max-width: 900px) {
+        padding: 50px 30px 90px;
+    }
+
+    @media (max-width: 500px) {
+        padding: 40px 15px 90px;
+    }
+
+    /* -----------------------------------
+     TITULO
+  ----------------------------------- */
+    .titulo {
+        padding: 100px 30px 0 30px;
+        font-weight: 700;
+        font-size: 32px;
+
+        @media (max-width: 700px) {
+            padding: 60px 20px 0 20px;
+        }
+
+        h2 {
+            color: $azulMedio;
+            font-size: 36px;
+            font-weight: 700;
+
+            @media (max-width: 700px) {
+                font-size: 30px;
+            }
+
+            @media (max-width: 450px) {
+                font-size: 26px;
+            }
+        }
+
+        p {
+            margin: auto;
+            width: 80%;
+            font-weight: 300;
+            font-size: 22px;
+            color: $grisTexto;
+
+            @media (max-width: 700px) {
+                width: 95%;
+                font-size: 20px;
+            }
+
+            @media (max-width: 450px) {
+                font-size: 18px;
+            }
+        }
+    }
+
+    /* -----------------------------------
+     SLIDER
+  ----------------------------------- */
+    .elSlider {
+        width: 90%;
+        margin: 0 auto;
+
+        @media (max-width: 900px) {
+            width: 100%;
+        }
+    }
+
+    /* -----------------------------------
+     TARJETAS DE RESEÑAS
+  ----------------------------------- */
+    .trabajos {
+        padding: 40px 20px;
+        display: flex;
+        justify-content: center;
+
+        @media (max-width: 500px) {
+            padding: 20px 5px;
+        }
+
+        .trabajo {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            background-color: $blanco;
+            padding: 22px;
+            border-radius: 12px;
+            text-align: left;
+            box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+            min-height: 200px;
+            max-height: auto;
+
+            @media (max-width: 700px) {
+                padding: 20px;
+                min-height: 220px;
+            }
+
+            @media (max-width: 500px) {
+                padding: 18px;
+            }
+
+            .npmyest {
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+
+                .estrellas i {
+                    color: #f3b807;
+                    font-size: 18px;
+
+                    @media (max-width: 450px) {
+                        font-size: 16px;
+                    }
+                }
+
+                h4 {
+                    font-size: 17px;
+                    color: $azulOscuro;
+                    font-weight: 600;
+
+                    @media (max-width: 450px) {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            p {
+                font-size: 16px;
+                color: $grisTexto;
+                line-height: 1.45;
+
+                @media (max-width: 450px) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    /* -----------------------------------
+     BOTÓN
+  ----------------------------------- */
+    .boton {
+        transition: 0.3s ease;
+        border-radius: 20px;
+        background-color: $azulMedio;
+        border: solid 2px $azulMedio;
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 13px 30px;
+        cursor: pointer;
+        margin-top: 20px;
+
+        @media (max-width: 600px) {
+            padding: 12px 26px;
+            font-size: 17px;
+        }
+
+        @media (max-width: 450px) {
+            width: 95%;
+            font-size: 16px;
+        }
+
+        &:hover {
+            background-color: $celeste;
+            border-color: $celeste;
+        }
+    }
+}
