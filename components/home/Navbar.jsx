@@ -50,7 +50,7 @@ function Navbar() {
         {/* <a href="#proposito">Nuestro Propósito</a> */}
         <a href="/#servicios">Servicios</a>
         <a href="/#porque"> ¿Por qué elegirnos?</a>
-        <a href="/galeria">Instalaciones</a>
+        <a href="/galeria">Galería de fotos</a>
         <a href="/#opiniones">Reseñas</a>
       </motion.div>
       <motion.div {...imageVariants} className="right">
@@ -78,7 +78,7 @@ function Navbar() {
             Servicios
           </a>
           <a href="/galeria" onClick={handleClick}>
-            Instalaciones
+            Galería de fotos
           </a>
           <a href="/#porque" onClick={handleClick}>
             ¿Por qué elegirnos?

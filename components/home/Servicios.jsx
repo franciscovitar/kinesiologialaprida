@@ -197,7 +197,7 @@ function Servicios() {
           </p>
         </motion.div>
       </div>
-      <a href="/galeria">Ver nuestras instalaciones</a>
+      <a href="/galeria">Ver galería de fotos</a>
     </div>
   );
 }
