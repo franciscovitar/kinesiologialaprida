@@ -45,13 +45,13 @@ function Navbar() {
         </a>
       </motion.div>
       <motion.div {...imageVariants} className="center">
-        <a href="#inicio">Inicio</a>
-        <a href="#nosotros">Nosotros</a>
+        <a href="/#inicio">Inicio</a>
+        <a href="/#nosotros">Nosotros</a>
         {/* <a href="#proposito">Nuestro Propósito</a> */}
-        <a href="#servicios">Servicios</a>
-        <a href="#porque"> ¿Por qué elegirnos?</a>
-        {/* <a href="#instalaciones">Nuestras Instalaciones</a> */}
-        <a href="#opiniones">Reseñas</a>
+        <a href="/#servicios">Servicios</a>
+        <a href="/#porque"> ¿Por qué elegirnos?</a>
+        <a href="/galeria">Instalaciones</a>
+        <a href="/#opiniones">Reseñas</a>
       </motion.div>
       <motion.div {...imageVariants} className="right">
         <a href="#contacto" className="contacto">
@@ -65,25 +65,28 @@ function Navbar() {
       </motion.div>
       <div ref={bgDiv} className="bg-div">
         <div ref={linksActive} className="links-active">
-          <a href="#inicio" onClick={handleClick}>
+          <a href="/#inicio" onClick={handleClick}>
             Inicio
           </a>
-          <a href="#nosotros" onClick={handleClick}>
+          <a href="/#nosotros" onClick={handleClick}>
             Nosotros
           </a>
           {/* <a href="#proposito" onClick={handleClick}>
             Nuestro Propósito
           </a> */}
-          <a href="#servicios" onClick={handleClick}>
+          <a href="/#servicios" onClick={handleClick}>
             Servicios
           </a>
-          <a href="#porque" onClick={handleClick}>
+          <a href="/galeria" onClick={handleClick}>
+            Instalaciones
+          </a>
+          <a href="/#porque" onClick={handleClick}>
             ¿Por qué elegirnos?
           </a>
           {/* <a href="#instalaciones" onClick={handleClick}>
             Nuestras Instalaciones
           </a> */}
-          <a href="#opiniones" onClick={handleClick}>
+          <a href="/#opiniones" onClick={handleClick}>
             Reseñas
           </a>
         </div>

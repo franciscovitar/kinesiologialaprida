@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import ProfileImage from "../../Image/seccion2.png";
+import ProfileImage from "../../Image/pileta2.png";
 import "../styles/_seccion2.scss";
 
 const fadeUp = {

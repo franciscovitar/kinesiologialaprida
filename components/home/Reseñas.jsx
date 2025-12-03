@@ -48,12 +48,6 @@ const settings = {
 
 const trabajos = [
   {
-    nombre: "Dani Taxy",
-    reseña:
-      "Centro de kinesiología muy bueno. Me atiendo por PAMI y la atención de Bruno y Maru es excelente. Muy conforme, unos genios.",
-    estrellas: 5,
-  },
-  {
     nombre: "Marcela Strasberg",
     reseña:
       "Excelente equipo de trabajo. Acompañan con profesionalismo y calidez en todo el proceso de rehabilitación. No podría haber elegido un lugar mejor.",
