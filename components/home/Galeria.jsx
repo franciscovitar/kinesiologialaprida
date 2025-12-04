@@ -23,6 +23,8 @@ import Imagen15 from "../../Image/imagen-15.jpeg";
 import Imagen16 from "../../Image/imagen-16.jpeg";
 import Imagen17 from "../../Image/imagen-17.jpeg";
 import Imagen18 from "../../Image/imagen-18.jpeg";
+import Imagen19 from "../../Image/imagen-19.jpeg";
+import Imagen20 from "../../Image/imagen-20.jpeg";
 
 const imagenes = [
   { src: Imagen1, alt: "Instalaciones del centro - imagen 1" },
@@ -43,6 +45,8 @@ const imagenes = [
   { src: Imagen16, alt: "Instalaciones del centro - imagen 16" },
   { src: Imagen17, alt: "Instalaciones del centro - imagen 17" },
   { src: Imagen18, alt: "Instalaciones del centro - imagen 18" },
+  { src: Imagen19, alt: "Instalaciones del centro - imagen 19" },
+  { src: Imagen20, alt: "Instalaciones del centro - imagen 20" },
 ];
 
 function Galeria() {

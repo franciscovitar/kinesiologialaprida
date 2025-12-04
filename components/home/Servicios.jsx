@@ -41,7 +41,8 @@ function Servicios() {
         }}
       >
         Desde el 2010 acompañando a nuestros pacientes con técnicas de
-        rehabilitación especializadas.
+        rehabilitación especializadas. Trabajamos con todas las obras sociales
+        para pacientes con certificado único de discapacidad.
       </motion.p>
 
       <div className="contenedor-especialidades">

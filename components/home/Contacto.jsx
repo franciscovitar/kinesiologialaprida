@@ -43,6 +43,9 @@ function Contacto() {
           <p>
             <strong>Instagram:</strong> @kinesiologialaprida
           </p>
+          <p>
+            <strong>Facebook:</strong> Centro de Kinesiología Laprida
+          </p>
         </motion.div>
 
         {/* ICONOS */}
@@ -53,7 +56,12 @@ function Contacto() {
           >
             <i className="bi bi-instagram"></i>
           </a>
-
+          <a
+            href="https://www.facebook.com/cklaprida/?locale=es_LA"
+            target="_blank"
+          >
+            <i className="bi bi-facebook"></i>
+          </a>
           <a
             href="https://api.whatsapp.com/send/?phone=5493415403917"
             target="_blank"
