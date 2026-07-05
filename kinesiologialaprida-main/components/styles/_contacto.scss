@@ -1,0 +1,124 @@
+$azulOscuro: #0b2456;
+$azulMedio: #0b2456;
+$celeste: #0b2456;
+$grisFondo: #F5F7FA;
+$blanco: #ffffff;
+
+.contacto-container {
+    padding: 0px 6%;
+    background: $blanco;
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        padding: 80px 5%;
+    }
+
+    .contacto-card {
+        background: $blanco;
+        border-radius: 14px;
+        padding: 70px 60px;
+        width: 100%;
+        max-width: 700px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        margin: auto;
+
+        @media (max-width: 900px) {
+            padding: 60px 40px;
+        }
+
+        @media (max-width: 600px) {
+            padding: 50px 25px;
+            gap: 35px;
+        }
+
+        /* LOGO */
+        .logo-container {
+            .logo {
+                width: 150px;
+                height: auto;
+                margin-bottom: 20px;
+
+                @media (max-width: 600px) {
+                    width: 120px;
+                }
+            }
+
+            .line {
+                width: 90px;
+                height: 4px;
+                background: $celeste;
+                border-radius: 2px;
+                margin: 0 auto;
+            }
+        }
+
+        h3 {
+            font-size: 30px;
+            font-weight: 700;
+            color: $azulOscuro;
+            margin-bottom: 5px;
+
+            @media (max-width: 600px) {
+                font-size: 26px;
+            }
+        }
+
+        /* INFO PRINCIPAL Y PROFESIONALES */
+        .info,
+        .profesionales {
+            p {
+                font-size: 18px;
+                color: #444;
+                margin: 6px 0;
+                line-height: 1.55;
+
+                strong {
+                    color: $azulMedio;
+                }
+
+                @media (max-width: 600px) {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .profesionales {
+            h4 {
+                font-size: 24px;
+                color: $azulOscuro;
+                margin-bottom: 10px;
+                font-weight: 700;
+
+                @media (max-width: 600px) {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        /* ICONOS */
+        .iconos {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 10px;
+
+            i {
+                font-size: 26px;
+                color: $azulMedio;
+                transition: 0.25s ease;
+
+                &:hover {
+                    color: darken($azulMedio, 10%);
+                }
+
+                @media (max-width: 600px) {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
