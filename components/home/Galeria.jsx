@@ -5,27 +5,37 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import "../styles/_galeria.scss";
 
-import Galeria01 from "../../Image/galeria-01.jpg";
-import Galeria02 from "../../Image/galeria-02.jpg";
-import Galeria03 from "../../Image/galeria-03.jpg";
-import Galeria04 from "../../Image/galeria-04.jpg";
-import Galeria05 from "../../Image/galeria-05.jpg";
-import Galeria06 from "../../Image/galeria-06.jpg";
-import Galeria07 from "../../Image/galeria-07.jpg";
-import Galeria08 from "../../Image/galeria-08.jpg";
-import Galeria09 from "../../Image/galeria-09.jpg";
-import Galeria10 from "../../Image/galeria-10.jpg";
-import Galeria11 from "../../Image/galeria-11.jpg";
-import Galeria12 from "../../Image/galeria-12.jpg";
-import Galeria13 from "../../Image/galeria-13.jpg";
-import Galeria14 from "../../Image/galeria-14.jpg";
-import Galeria15 from "../../Image/galeria-15.jpg";
-import Galeria16 from "../../Image/galeria-16.jpg";
-import Galeria17 from "../../Image/galeria-17.jpg";
-import Galeria18 from "../../Image/galeria-18.jpg";
-import Galeria19 from "../../Image/galeria-19.jpg";
-import Galeria20 from "../../Image/galeria-20.jpg";
-import Galeria21 from "../../Image/galeria-21.jpg";
+import Galeria01 from "../../Image/galeria/galeria-01.jpg";
+import Galeria02 from "../../Image/galeria/galeria-02.jpg";
+import Galeria03 from "../../Image/galeria/galeria-03.jpg";
+import Galeria04 from "../../Image/galeria/galeria-04.jpg";
+import Galeria05 from "../../Image/galeria/galeria-05.jpg";
+import Galeria06 from "../../Image/galeria/galeria-06.jpg";
+import Galeria07 from "../../Image/galeria/galeria-07.jpg";
+import Galeria08 from "../../Image/galeria/galeria-08.jpg";
+import Galeria09 from "../../Image/galeria/galeria-09.jpg";
+import Galeria10 from "../../Image/galeria/galeria-10.jpg";
+import Galeria11 from "../../Image/galeria/galeria-11.jpg";
+import Galeria12 from "../../Image/galeria/galeria-12.jpg";
+import Galeria13 from "../../Image/galeria/galeria-13.jpg";
+import Galeria14 from "../../Image/galeria/galeria-14.jpg";
+import Galeria15 from "../../Image/galeria/galeria-15.jpg";
+import Galeria16 from "../../Image/galeria/galeria-16.jpg";
+import Galeria17 from "../../Image/galeria/galeria-17.jpg";
+import Galeria18 from "../../Image/galeria/galeria-18.jpg";
+import Galeria19 from "../../Image/galeria/galeria-19.jpg";
+import Galeria20 from "../../Image/galeria/galeria-20.jpg";
+import Galeria21 from "../../Image/galeria/galeria-21.jpg";
+import Galeria22 from "../../Image/galeria/galeria-22.jpg";
+import Galeria23 from "../../Image/galeria/galeria-23.jpg";
+import Galeria24 from "../../Image/galeria/galeria-24.jpg";
+import Galeria25 from "../../Image/galeria/galeria-25.jpg";
+import Galeria26 from "../../Image/galeria/galeria-26.jpg";
+import Galeria27 from "../../Image/galeria/galeria-27.jpg";
+import Galeria28 from "../../Image/galeria/galeria-28.jpg";
+import Galeria29 from "../../Image/galeria/galeria-29.jpg";
+import Galeria30 from "../../Image/galeria/galeria-30.jpg";
+import Galeria31 from "../../Image/galeria/galeria-31.jpg";
 
 const imagenes = [
   { src: Galeria01, alt: "Instalaciones del centro - imagen 1" },
@@ -49,6 +59,16 @@ const imagenes = [
   { src: Galeria19, alt: "Instalaciones del centro - imagen 19" },
   { src: Galeria20, alt: "Instalaciones del centro - imagen 20" },
   { src: Galeria21, alt: "Instalaciones del centro - imagen 21" },
+  { src: Galeria22, alt: "Instalaciones del centro - imagen 22" },
+  { src: Galeria23, alt: "Instalaciones del centro - imagen 23" },
+  { src: Galeria24, alt: "Instalaciones del centro - imagen 24" },
+  { src: Galeria25, alt: "Instalaciones del centro - imagen 25" },
+  { src: Galeria26, alt: "Instalaciones del centro - imagen 26" },
+  { src: Galeria27, alt: "Instalaciones del centro - imagen 27" },
+  { src: Galeria28, alt: "Instalaciones del centro - imagen 28" },
+  { src: Galeria29, alt: "Instalaciones del centro - imagen 29" },
+  { src: Galeria30, alt: "Instalaciones del centro - imagen 30" },
+  { src: Galeria31, alt: "Instalaciones del centro - imagen 31" },
 ];
 
 function Galeria() {
